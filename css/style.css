@@ -27,6 +27,9 @@ body {
   h1{
       font-size: 3em;
   }
+  li{
+    list-style:none;
+  }
   header{
     background-color: #88D317;
     border-radius: 1em;
