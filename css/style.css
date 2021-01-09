@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Libre+Baskerville:wght@700&family=Open+Sans&display=swap");
+body {
+    background-color: #1A0315;
+    font-family: "Open Sans", sans-serif;
+    padding: 5px 25px;
+    font-size: 16px;
+    margin: 0;
+    color: white;
+  }
+  img {
+    max-width: 100%;
+    border-radius: 1em;
+   
+  }
+  a{
+    text-decoration:none;
+    color:white;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "Libre Baskerville", serif;
+  }
+  h1{
+      font-size: 3em;
+  }
+  header{
+    background-color: #88D317;
+    border-radius: 1em;
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+
+  }
+  main {
+    background-color: #6E3667;
+    border-radius: 1em;
+    text-align: center;
+  }
+  footer{
+      text-align: center;
+  }
+  #titulo{
+      position: relative;
+      left: .5em;
+  }
+  #me{
+    position: relative;
+    left: 4.5em;
+  }
+  #name{
+    position: relative;
+    left: 6.5em;
+    top:1.9em;
+  }
+#linkbyu{
+    color: #88D317;
+  background-color: #AA2233;
+  padding: 2px;
+  border-radius: 0.5em;
+}
