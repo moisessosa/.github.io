@@ -38,7 +38,29 @@ body {
       margin-top: auto;
       padding-top:5% ;
   }
+
+  /**/
   main{
+    display: block;
+    
+ }
+  
+ 
+  footer{
+    text-align: center;
+}
+@media (min-width: 32.5em) { 
+    main{
       display: grid;
-      grid-template-columns: 1fr 1fr 1fr;
-  }
+        grid-template-columns: 1fr 1fr;
+    }
+  
+}
+@media (min-width: 64em) { 
+    main{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+  
+}
