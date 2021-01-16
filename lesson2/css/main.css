@@ -16,11 +16,12 @@ body {
     font-family: "Libre Baskerville", serif;
   }
   header{
-      max-width: 100%;
+      max-width: 93%;
       background-color: #88D317;
       text-align: center;
       border-radius: 1em;
       padding: 0%;
+      margin-left: 10px;
       
       
   }
