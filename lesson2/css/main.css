@@ -2,7 +2,7 @@
 body {
     background-color: whitesmoke;
     font-family: "Open Sans", sans-serif;
-    padding: 5px 25px;
+    padding: 4px 25px;
     font-size: 16px;
     margin: 0;
     color: #444444;
@@ -16,7 +16,7 @@ body {
     font-family: "Libre Baskerville", serif;
   }
   header{
-      max-width: 93%;
+     max-width: 93%;
       background-color: #88D317;
       text-align: center;
       border-radius: 1em;
@@ -51,17 +51,21 @@ body {
   footer{
     text-align: center;
 }
-@media (min-width: 32.5em) { 
+@media (min-width: 32.5em) { /*medium*/
     main{
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
+    
   
 }
-@media (min-width: 64em) { 
-    main{
+@media (min-width: 64em) { /*large*/
+    main{        
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
     } 
+    header{
+      max-width: 93%;
+    }
   
 }
