@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="description" content="">
+        <link href= "css/normalize.css" rel= "stylesheet" >
+        <link href= "css/main.css" rel= "stylesheet" >
+      <title>Moises | Lesson 3 | Site Plan |Typografy</title>
+      <script src="../js/date.js"></script>  
+    </head>
+
+    <body>
+        <header>
+            <h1>The Weather site Planning</h1>
+            <h2>Moises Rodriguez</h2>
+        </header>
+        <main>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Principal</a></li>
+                    <li><a href="target-audience.html">Audience</a></li>
+                    <li><a href="color-scheme.html">Colors</a></li>
+                    <li><a href="typography.html">Typografy</a></li>
+                </ul>
+            </nav>
+            <section>
+                <h2>Typography</h2>
+                <p>This site uses <span id="headings">Libre Baskerville for headings</span> and <strong class="major">Open sans</strong> fonts for the paragraphs, since they are very elegant fonts and they combine very well.</p>
+            </section>
+
+        </main>
+        <footer>
+            &copy; <span id="year"></span> | Moises  Sosa Rodriguez | Brazil |<a  id="linkbyu"href="https://www.byui.edu/online" target="_blank">BYUI online Lerning</a>
+            <br />
+            <span id="update"></span>
+            <script>
+              document.getElementById('year').innerHTML = retornarUpdate();
+              document.getElementById('update').innerHTML = retornarFecha();
+     
+            </script>        
+    
+          
+          </footer>
+    </body>
+    
+</html>

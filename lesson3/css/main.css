@@ -6,6 +6,7 @@ body {
     font-size: 16px;
     margin: 0;
     color: #444444;
+
   }
   img {
     max-width: 100%;
@@ -25,14 +26,14 @@ body {
       
       
   }
-  article{
+  /*article{ erase or modified
     border: 1px solid grey;
     margin: 1em;
     max-width: 22em;
     min-width: 300px;
    /* max-height: 65em;*/
-    border-radius: 10px;
-  }
+  /*  border-radius: 10px;
+  }*/
   .subtitulo{
       background-color: #88D317;
       height: 2.5em;
@@ -44,12 +45,23 @@ body {
   /**/
   main{
     display: block;
+    line-height: 2rem;
+    max-width: 93%;
+    
     
  }
   
  
   footer{
     text-align: center;
+}
+#headings{
+    font-family: "Libre Baskerville", serif;
+    font-size: 1.5em;
+ 
+}
+.major{
+  font-size: 1.5em;
 }
 @media (min-width: 32.5em) { /*medium*/
    /* main{
