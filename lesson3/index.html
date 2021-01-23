@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="description" content="">
+        <link href= "css/normalize.css" rel= "stylesheet" >
+        <link href= "css/main.css" rel= "stylesheet" >
+      <title>Moises | Lesson 3 | Site Plan</title>
+      <script src="../js/date.js"></script>  
+    </head>
+
+    <body>
+        <header>
+            <h1>The Weather site Planning</h1>
+            <h2>Moises Rodriguez</h2>
+        </header>
+        <main>
+            <nav>
+                <ul>
+                    <li>Principal</li>
+                    <li>Audience</li>
+                    <li>Colors</li>
+                    <li>Typografy</li>
+                </ul>
+            </nav>
+            <section>
+                <h2>Name Site:</h2>
+                <p>7 Stars Weather</p>
+                <h2>Site Purpose:</h2>
+                <p>
+                    As an informative weather site, the purpose is to inform the weather forecast of any city in Brazil, so that people can plan their activities.
+                    Also Disseminate to the public bulletins and warnings of the weather conditions, potentially dangerous, such as electrical storms, hurricanes, among others and give
+                 suggestions of what to do during these situations.
+                </p>
+                <h2>Domain Name:</h2>
+                <p>7starsweather.com</p>
+                <h2>Logo:</h2>
+                <img id="logo" src="img/logo.png" alt="Logo weather">
+            </section>
+
+        </main>
+        <footer>
+            &copy; <span id="year"></span> | Moises  Sosa Rodriguez | Brazil |<a  id="linkbyu"href="https://www.byui.edu/online" target="_blank">BYUI online Lerning</a>
+            <br />
+            <span id="update"></span>
+            <script>
+              document.getElementById('year').innerHTML = retornarUpdate();
+              document.getElementById('update').innerHTML = retornarFecha();
+     
+            </script>        
+    
+          
+          </footer>
+    </body>
+    
+</html>

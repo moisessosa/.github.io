@@ -23,12 +23,15 @@ body {
   h5,
   h6 {
     font-family: "Libre Baskerville", serif;
+    padding-top: 1em;
   }
   h1{
       font-size: 3em;
   }
   li{
     list-style:none;
+    line-height: 2.5rem;
+    padding-bottom: 1em;
   }
   header{
     background-color: #88D317;
@@ -51,15 +54,16 @@ body {
   }
   #me{
     position: relative;
-    left: 4.5em;
+    right:-88px;
+
   }
   #name{
     position: relative;
     left: 6.5em;
-    top:1.9em;
+    top: 1.5em;
   }
 #linkbyu{
-    color: #88D317;
+  color: #88D317;
   background-color: #AA2233;
   padding: 2px;
   border-radius: 0.5em;
