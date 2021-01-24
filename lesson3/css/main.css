@@ -16,6 +16,10 @@ body {
   h1, h2, h3{
     font-family: "Libre Baskerville", serif;
   }
+  nav ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
   header{
       max-width: 22.5em;
       background-color: #88D317;
