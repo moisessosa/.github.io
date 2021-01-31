@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Libre+Baskerville:wght@700&family=Open+Sans&display=swap");
+img{
+    max-width: 100%;
+}
+header{
+    background-color: #008789;
+    display: flex;
+    padding: 1rem;
+    
+    margin-left: 1rem;
+    margin-right: 1rem;
+    
+}
+header>h1,header>img,header>button{
+    flex:1;
+    text-align: center;
+
+}
+header>img{
+    max-width: 96px;
+}
+header>h1{
+    margin-top: 2rem;
+}
+button{
+    background-color: #008789;
+    border-style: none;
+}
+body{
+    background-color: white;
+}
+nav{
+    display: none;
+}
+.box{
+    background-color: #009c3b;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.box-forecast-large{
+    display: none;
+}
+
+.box-forecast-small{
+    border:black solid 1px;
+   
+  
+
+}
+.titulo{
+    border-bottom: black solid 1px;
+    padding-left: 1rem;
+    padding-bottom 1rem;
+    padding-top: 1rem;
+    height: 3rem;
+    background-color: #002776;
+    margin-top: 0px;
+   
+}
+.city{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    background-color: #002776;
+    margin-bottom: 0px;
+}
