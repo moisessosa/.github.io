@@ -7,7 +7,7 @@
         <link href= "../css/normalize.css" rel= "stylesheet" >
         <link href= "css/small.css" rel= "stylesheet" >
       <title>Moises | Lesson 4 |Preston</title>
-      <script src=""></script>  
+      <script src="js/date.js"></script>  
     </head>
 
     <body>
@@ -51,12 +51,12 @@
 
                 <article class="box-forecast-small"><!--Para pantalla pequeñas-->
                     <h2 class="titulo">Five Days Forecast</h2>
-                    <section>
+                    <section id="down">
                         <h3>Article:</h3>
                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.<br>
                              Accusamus nesciunt neque dignissimos voluptatibus iusto magni esse reiciendis, <br>
                              sunt aut quas perferendis dolores accusantium velit quae. Dolor aliquam nesciunt commodi ipsam.</p>
-                        <img src="img/jaboticabal.jpg" alt="photo Jaboticabal">
+                        <img src="img/jaboticabal.jpg" alt="photo Jaboticabal" class="secundary-img">
                     </section>
                 </article>
             
@@ -65,23 +65,24 @@
                 <img src="img/map.png" alt="map">
                 <section>
                     <h3>Contact information</h3>
-                   <p>📧</p>
-                   <p>📱</p>
+                   <p>📧 rod20028@byui.edu</p>
+                   <p>📱+55 16 997986545</p>
                    <div class="social">
-                       <img src="" alt="FaceBook">
-                       <img src="" alt="Twitter">
-                       <img src="" alt="Instragram">
+                       <img src="img/facebook.png" alt="FaceBook">
+                       <img src="img/twitter.png" alt="Twitter">
+                       <img src="img/instagram.png" alt="Instragram">
                    </div>
                 </section>
             </div>
 
         </main>
         <footer>
-            &copy; <span id="year"></span> | Moises  Sosa Rodriguez | Brazil |<a  id="linkbyu"href="https://www.byui.edu/online" target="_blank">BYUI online Lerning</a>
+            &copy; <span id="year"></span> | Moises  Sosa Rodriguez | Brazil |<a  id="linkbyu"href="https://www.byui.edu/online" target="_blank"><strong><em>BYUI</em></strong></a>
             <br />
             <span id="update"></span>
             <script>
-             
+                 document.getElementById('year').innerHTML = retornarUpdate();
+                 document.getElementById('update').innerHTML = retornarFecha();
      
             </script>        
     
