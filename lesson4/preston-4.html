@@ -6,31 +6,32 @@
         <meta name="description" content="">
         <link href= "../css/normalize.css" rel= "stylesheet" >
         <link href= "css/small.css" rel= "stylesheet" >
+        <link href= "css/large.css" rel= "stylesheet" >
       <title>Moises | Lesson 4 |Preston</title>
       <script src="js/date.js"></script>  
     </head>
 
     <body>
         <header>
-            <img src="img/logo.png" alt="Logo termometer and stars">
+            <img src="img/logo.png" alt="Logo termometer and stars" id="logo">
             <h1>7 Stars Weather</h1>
             <button class="menu-button">&#9776;</button>
         </header>
         <nav class="menu">
             <ul>
-                <li>nkni</li>
-                <li>nkni</li>
-                <li>nkni</li>
-                <li>nkni</li>
-                <li>nkni</li>
-                <li>nkni</li>
+                <li>Home</li>
+                <li>Jaboticabal</li>
+                <li>Soda Spring</li>
+                <li>Fish Haven</li>
+                <li>Storn Center</li>
+                <li>Gallery</li>
             </ul>
 
         </nav>
         <main>
             <div class="box">
                 <h2 class="city">Jaboticabal, Brazil</h2>
-                <img src="img/jaboticabal1.jpg" alt="Banner Jaboticabal">
+                <img class="secundary-img" src="img/jaboticabal1.jpg" alt="Banner Jaboticabal">
                 <section id="summary" class="transparente">
                     <h3>Weather Summary</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br>
@@ -42,28 +43,28 @@
                    
                     <h2>Five Days Forecast</h2>
                     <div id="five-days">
-                    <div class="forecast" id="day1">30 ºC</div>
-                    <div class="forecast" id="day2">30 ºC</div>
-                    <div class="forecast" id="day3">30 ºC</div>
-                    <div class="forecast" id="day4">30 ºC</div>
-                    <div class="forecast" id="day5">30 ºC</div>
-                </div>
+                        <div class="forecast" id="day1">30 ºC</div>
+                        <div class="forecast" id="day2">30 ºC</div>
+                        <div class="forecast" id="day3">30 ºC</div>
+                        <div class="forecast" id="day4">30 ºC</div>
+                        <div class="forecast" id="day5">30 ºC</div>
+                    </div>
                 </div>
 
                 <article class="box-forecast-small"><!--Para pantalla pequeñas-->
                     <h2 class="titulo">Five Days Forecast</h2>
                     <section id="down">
                         <h3>Article:</h3>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.<br>
+                        <p class="corto">Lorem ipsum, dolor sit amet consectetur adipisicing elit.<br>
                              Accusamus nesciunt neque dignissimos voluptatibus iusto magni esse reiciendis, <br>
                              sunt aut quas perferendis dolores accusantium velit quae. Dolor aliquam nesciunt commodi ipsam.</p>
-                        <img src="img/jaboticabal.jpg" alt="photo Jaboticabal" class="secundary-img">
+                        <img src="img/jaboticabal.jpg" alt="photo Jaboticabal" class="secundary-img1" id="derecha">
                     </section>
                 </article>
             
             </div><!--Fin de class = box-->
             <div class="contact">
-                <img src="img/map.png" alt="map">
+                <img src="img/map.png" alt="map" id="map">
                 <section>
                     <h3>Contact information</h3>
                    <p>📧 rod20028@byui.edu</p>
@@ -79,7 +80,7 @@
         </main>
         <footer>
             &copy; <span id="year"></span> | Moises  Sosa Rodriguez | Brazil |<a  id="linkbyu"href="https://www.byui.edu/online" target="_blank"><strong><em>BYUI</em></strong></a>
-            <br />
+            |
             <span id="update"></span>
             <script>
                  document.getElementById('year').innerHTML = retornarUpdate();

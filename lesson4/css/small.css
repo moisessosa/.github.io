@@ -5,6 +5,10 @@ html{
 img{
     max-width: 100%;
 }
+#logo{
+    max-width: 128px;
+    max-height: 128px;
+}
 body{
     font-family: "Open Sans", sans-serif;
 }
@@ -79,7 +83,7 @@ nav{
     background-color: #002776;
     margin-bottom: 0px;
 }
-.secundary-img{
+.secundary-img1{
     margin-bottom: 0px;
     padding-bottom: 0px;
     position: relative;

@@ -1,0 +1,89 @@
+@media (min-width: 32.5em) {
+    html{
+        max-width: 1250px;
+    }
+
+    .menu-button{
+        display: none;
+    }
+    header>h1{
+        margin-left: 1rem;
+        text-align: left;
+    
+    }
+    nav{
+      display: inline;  
+    }
+    nav ul{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        text-decoration: none;
+        list-style: none;
+
+    }
+    .box{
+        max-width: 960px;
+        margin-left: auto;
+        margin-right: auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    .city{
+        grid-column: 1/-1;
+    }
+    .box-forecast-large{
+        display: inline;
+        grid-column: 1/-1;
+        position: relative
+        top:-10em;
+    }
+    .box-forecast-small{
+        grid-column: 1/-1;
+    }
+    #five-days{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        padding-bottom: 1rem;
+    }
+    .secundary-img{
+        width: 960px;
+        grid-column: 1/-1;
+        grid-row: 1;
+    }
+    .secundary-img1{
+        width: 512px;
+        top: 0px;
+    }
+    #summary{
+        background-color: rgba(240, 240, 240, 0.8);
+        padding: .5em;
+        text-align: left;
+        height:200px;
+        width: 512px;
+        font-size:1.1em;
+        border: black solid 1px;
+        grid-column: 1/4;
+        grid-row: 1;
+        position: relative;
+        top:8rem;
+        left:2rem;
+    }
+    #derecha{
+        float: right;
+        margin-top: -175px;
+    }
+    .corto{
+        width: 400px;
+    }
+    #down{
+        margin-left: 1rem;
+    }
+    .contact{
+        display: grid;
+        grid-template-columns: .5fr 1fr 2fr;
+        column-gap: 10px;
+    }
+    #map{
+        grid-column: 2;
+    }
+}
