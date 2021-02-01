@@ -15,6 +15,9 @@ body{
 h1, h2, h3{
     font-family: "Libre Baskerville", serif;
   }
+  h1{
+      font-size: 24px;
+  }
 header{
     background-color: #008789;
     display: flex;
@@ -29,6 +32,7 @@ header>h1,header>img,header>button{
     text-align: center;
 
 }
+
 header>img{
     max-width: 96px;
 }
@@ -42,8 +46,34 @@ button{
 body{
     background-color: white;
 }
-nav{
+/*.navigation{
+    display: block;
+}*/
+.menu{
+    display: block;/*none*/
+}
+.hide{
     display: none;
+}
+nav ul{
+    padding: 0%;
+    margin: 0%;
+}
+nav ul li{
+    list-style: none;
+    padding: .8rem 2%;
+    margin: 1rem;
+}
+nav ul li a{
+    text-decoration: none;
+    padding: .8rem 2%;
+    margin: 1rem;
+    color: black;
+    
+}
+nav ul li a:hover{
+    background-color: black;
+    color: white;
 }
 #linkbyu{
     color:white;
@@ -105,3 +135,4 @@ footer{
     background-color: #002776;
     color: white;
 }
+

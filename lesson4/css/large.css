@@ -35,8 +35,8 @@
     .box-forecast-large{
         display: inline;
         grid-column: 1/-1;
-        position: relative
-        top:-10em;
+        /*position: relative;
+        top:-10em;*/
     }
     .box-forecast-small{
         grid-column: 1/-1;
@@ -86,5 +86,14 @@
     }
     #map{
         grid-column: 2;
+    }
+    .navigation li:first-child {
+		display: none;
+    }
+    .hide{
+        display: inline;
+    }
+    h1{
+        font-size: 32px;
     }
 }
