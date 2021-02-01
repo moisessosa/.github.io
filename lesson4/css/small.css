@@ -68,11 +68,12 @@ nav ul li a{
     text-decoration: none;
     padding: .8rem 2%;
     margin: 1rem;
-    color: black;
+    color: #0c0c0c;
+    
     
 }
 nav ul li a:hover{
-    background-color: black;
+    background-color:#008789;
     color: white;
 }
 #linkbyu{
@@ -112,6 +113,7 @@ nav ul li a:hover{
     padding-left: 1rem;
     background-color: #002776;
     margin-bottom: 0px;
+    border: black solid 1px;
 }
 .secundary-img1{
     margin-bottom: 0px;
@@ -135,4 +137,5 @@ footer{
     background-color: #002776;
     color: white;
 }
+
 

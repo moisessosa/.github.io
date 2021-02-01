@@ -96,4 +96,23 @@
     h1{
         font-size: 32px;
     }
-}
+    #five-days{
+        
+        display: flex;
+        justify-content:center;
+      
+    }
+    .forecast{
+        background-color:#008789;
+        color: blanchedalmond;
+        width: 64px;
+        height: 64px;
+        padding: 10px;
+        padding-top: 40px;
+        text-align: center;
+        font-size: 22px;
+        border: #0c0c0c solid 1px;
+                     
+        margin: 40px;
+
+    }
