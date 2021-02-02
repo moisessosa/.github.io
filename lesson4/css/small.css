@@ -55,6 +55,10 @@ body{
 .hide{
     display: none;
 }
+nav{
+    max-width:1250px;
+    
+}
 nav ul{
     padding: 0%;
     margin: 0%;
@@ -69,12 +73,14 @@ nav ul li a{
     padding: .8rem 2%;
     margin: 1rem;
     color: #0c0c0c;
+   
     
     
 }
 nav ul li a:hover{
     background-color:#008789;
     color: white;
+ 
 }
 #linkbyu{
     color:white;
