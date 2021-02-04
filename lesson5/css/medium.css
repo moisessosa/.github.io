@@ -1,4 +1,4 @@
-@media (min-width: 64em) {
+@media (min-width: 32.5em) {
     html{
         max-width: 1250px;
     }
@@ -23,8 +23,12 @@
     }
     nav ul li a{
         
-        font-size: 100%;
-        display: inline;
+        font-size: 95%;
+        line-height: 2em;
+        display: grid;
+        grid-template-columns: 70px 70px;
+        text-align: center;
+       
     }
     .box{
         max-width: 960px;
@@ -57,21 +61,21 @@
         grid-row: 1;
     }
     .secundary-img1{
-        width: 512px;
+        max-width: 60%;
         top: 0px;
     }
     #summary{
         background-color: rgba(240, 240, 240, 0.8);
         padding: .5em;
         text-align: left;
-        height:200px;
-        width: 512px;
+        height:180px;
+        width: 480px;
         font-size:1.1em;
         border: black solid 1px;
         grid-column: 1/4;
         grid-row: 1;
         position: relative;
-        top:8rem;
+        top:5rem;
         left:2rem;
     }
     #derecha{
@@ -79,7 +83,7 @@
         margin-top: -175px;
     }
     .corto{
-        width: 400px;
+        width: 40%;
     }
     #down{
         margin-left: 1rem;
@@ -99,7 +103,7 @@
         display: inline;
     }
     h1{
-        font-size: 48px;
+        font-size: 30px;
     }
     #five-days{
         
@@ -110,18 +114,19 @@
     .forecast{
         background-color:#002776;
         color: black;
-        width: 64px;
-        height: 64px;
-        padding: 10px;
-        padding-top: 40px;
+        width: 48px;
+        height: 48px;
+        padding: 5px;
+        padding-top: 20px;
         text-align: center;
-        font-size: 22px;
+        font-size: 18px;
         border: #0c0c0c solid 1px;
                      
-        margin: 40px;
+        margin: 3%;
 
     }
     #active{
-        font-size: 1rem;
+        font-size: .8rem;
     }
+
 }
