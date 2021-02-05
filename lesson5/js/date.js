@@ -14,7 +14,7 @@ function retornarUpdate(){
 }
 function getDia(){
   var fecha = new Date()
-  //let diaNames =["dom", "lun", "mar", "mie", "jue", "vie", "sab"];
+  
   return fecha.getDay();
 
 }
