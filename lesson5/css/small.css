@@ -25,6 +25,7 @@ header{
     
     margin-left: 1rem;
     margin-right: 1rem;
+    margin-top: 1rem;
     
 }
 header>h1,header>img,header>button{
@@ -89,7 +90,7 @@ nav ul li a:hover{
    
 }
 .box{
-    background-color: #009c3b;
+    background-color:white;
     margin-left: 1rem;
     margin-right: 1rem;
 }
@@ -109,7 +110,7 @@ nav ul li a:hover{
     padding-bottom 1rem;
     padding-top: 1rem;
     height: 3rem;
-    background-color: #002776;
+    background-color: #008789;
     margin-top: 0px;
    
 }
@@ -117,7 +118,7 @@ nav ul li a:hover{
     padding-top: 1rem;
     padding-bottom: 1rem;
     padding-left: 1rem;
-    background-color: #002776;
+    background-color: #008789;
     margin-bottom: 0px;
     border: black solid 1px;
 }
@@ -151,7 +152,7 @@ footer{
     padding-top: 1em;
     padding-bottom: 1rem;
     color:white;
-    font-size: 10px;
+    font-size: 12px;
 }
 
 

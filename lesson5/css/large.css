@@ -108,7 +108,7 @@
       
     }
     .forecast{
-        background-color:#002776;
+        background-color:#008789;
         color: black;
         width: 64px;
         height: 64px;
@@ -122,6 +122,6 @@
 
     }
     #active{
-        font-size: 1rem;
+        font-size: 1.2rem;
     }
 }
