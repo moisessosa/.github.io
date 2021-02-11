@@ -143,6 +143,7 @@ nav ul li a:hover{
 footer{
     background-color: #002776;
     color: white;
+    text-align: center;
 }
 #active{
     display: none;
