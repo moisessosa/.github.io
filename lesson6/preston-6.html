@@ -13,7 +13,7 @@
       <script src="js/date.js"></script>  
       
       <script src="js/menu.js"></script>
-      
+      <script src="js/windchill.js"></script>
     </head>
 
     <body>
@@ -57,9 +57,11 @@
                 </picture>
                 <section id="summary" class="transparente">
                     <h3>Weather Summary</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br>
-                        Distinctio cupiditate laboriosam sequi corporis obcaecati ea, odio blanditiis <br>
-                        qui quasi pariatur consequuntur accusamus nisi et culpa itaque a deleniti quia optio!<br>
+                    <p>Temperature: <span id="temp">50 ºF</span><br>
+                       Wind Chill: <span id="windchill"></span><br>
+
+                       Wind Speed: <span id="speed"> 3 MPH</span>
+                       <br>
                     </p>
                 </section>
                 <div class="box-forecast-large"><!--Para pantalla grandes hacer invisible con JS y css-->
@@ -108,6 +110,7 @@
             <script>
                  document.getElementById('year').innerHTML = retornarUpdate();
                  document.getElementById('update').innerHTML = retornarFecha();
+                 document.getElementById('windchill').innerHTML = windChill(50, 3) + " ºF";
      
             </script>        
     

@@ -68,8 +68,8 @@
         background-color: rgba(240, 240, 240, 0.8);
         padding: .5em;
         text-align: left;
-        height:180px;
-        width: 480px;
+        height:39%;
+        width: 40%;
         font-size:1.1em;
         border: black solid 1px;
         grid-column: 1/4;
