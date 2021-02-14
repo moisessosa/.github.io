@@ -49,8 +49,7 @@
     #label{
         grid-column: -3;
         grid-row: 2;
-        color: black;
-       /* z-index: -1;*/
+       font-size: 4rem;
     }
     #five-days{
         display: grid;
