@@ -41,6 +41,13 @@
         grid-column: 1/-1;
         margin-top: 0px;
     }
+    #label{
+        grid-column: -3;
+        grid-row: 2;
+        color: red;
+       padding-right: 2em;
+       /* z-index: -1;*/
+    }
     .box-forecast-large{
         display: inline;
         grid-column: 1/-1;

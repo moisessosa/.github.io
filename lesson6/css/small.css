@@ -155,5 +155,15 @@ footer{
     color:white;
     font-size: 12px;
 }
+#label{
+    font-style: oblique;
+    
+    color: red;
+    font-size: 2rem;
+    font-weight: 800;
+    position: relative;
+    left:60%;
+    top: -15rem;
+}
 
 

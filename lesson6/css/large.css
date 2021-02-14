@@ -46,6 +46,12 @@
     .box-forecast-small{
         grid-column: 1/-1;
     }
+    #label{
+        grid-column: -3;
+        grid-row: 2;
+        color: black;
+       /* z-index: -1;*/
+    }
     #five-days{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
@@ -55,6 +61,7 @@
         width: 960px;
         grid-column: 1/-1;
         grid-row: 1;
+        z-index: 0;
     }
     .secundary-img1{
         width: 512px;

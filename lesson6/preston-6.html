@@ -54,13 +54,14 @@
                     <source media="(max-width: 899px)" srcset="img/wdd230_image_franklinMedium.jpg">
                     <!--<source media="(max-width: 2000px)" srcset="img/wdd230_image_franklinOriginal.jpg">   -->
                     <img  src="img/wdd230_image_franklinOriginal.jpeg" alt="Banner Jaboticabal">
+                    
                 </picture>
                 <section id="summary" class="transparente">
                     <h3>Weather Summary</h3>
-                    <p>Temperature: <span id="temp">50 ºF</span><br>
+                    <p>Temperature: <span id="temp">54 ºF</span><br>
                        Wind Chill: <span id="windchill"></span><br>
 
-                       Wind Speed: <span id="speed"> 3 MPH</span>
+                       Wind Speed: <span id="speed"> 12 MPH</span>
                        <br>
                     </p>
                 </section>
@@ -74,8 +75,9 @@
                         <div class="forecast" id="day4">30 ºC</div>
                         <div class="forecast" id="day5">30 ºC</div>
                     </div>
+                    
                 </div>
-
+                <div id="label">Small</div>
                 <article class="box-forecast-small"><!--Para pantalla pequeñas-->
                     <h2 class="titulo">Five Days Forecast</h2>
                     <section id="down">
@@ -86,7 +88,7 @@
                         <img src="img/pexels-florencia-potter-351283.jpg" alt="photo Jaboticabal" class="secundary-img1" id="derecha">
                     </section>
                 </article>
-            
+                
             </div><!--Fin de class = box-->
             <div class="contact">
                 <img src="img/map.png" alt="map" id="map">
@@ -110,7 +112,7 @@
             <script>
                  document.getElementById('year').innerHTML = retornarUpdate();
                  document.getElementById('update').innerHTML = retornarFecha();
-                 document.getElementById('windchill').innerHTML = windChill(50, 3) + " ºF";
+                 document.getElementById('windchill').innerHTML = windChill(54, 12) + " ºF";
      
             </script>        
     
