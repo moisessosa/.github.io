@@ -1,0 +1,12 @@
+body{
+    text-align: center;
+}
+picture{
+    display: block;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+}
