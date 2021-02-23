@@ -1,0 +1,26 @@
+table{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    
+}
+
+table, thead, tr, td, th{
+    border: rgb(204, 202, 202) solid 2px;
+    border-collapse: collapse;
+    padding: 10px;
+    
+}
+thead, tfoot{background-color: #7fb9c2 ;}
+.goal{
+    background-color: #628ca6;
+}
+.center{text-align: center;}
+.darkwhite{background-color: #e7f0ed;}
+.white-green{background-color: #e7ffed;}
+.subHead{
+    background-color: #628ca6;
+}
+table{
+    box-shadow:7px 7px 5px #ccc;
+}
