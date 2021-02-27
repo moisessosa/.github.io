@@ -55,13 +55,13 @@
                 <form action="thanks.html" method="GET">
                     <fieldset class="formulario">
                         <legend>Reporter's Information</legend>
-                        <label for="fname">Full Name:</label>
-                        <input type="text" name="fname" id="fname" required><br>
+                        <label for="fname">Full Name<span class="required">*</span></label>
+                        <input type="text" name="fname" id="fname" pattern="[a-zñA-ZÑ ]{5,254}" required><br>
                         <label for="email">email</label>
                         <input type="email" name="email" id="email" placeholder="example@mail.com"><br>
-                        <label for="phone">Phone Number:</label>
+                        <label for="phone">Phone Number<span class="required">*</span>:</label>
                         <input type="tel" name="phone" id="phone" required><br>
-                        <label for="zip"> Zip Code:</label>
+                        <label for="zip"> Zip Code<span class="required">*</span>">*</span>:</label>
                         <input type="number" name="zip" id="zip" required><br>
                     </fieldset>
                     <fieldset class="formulario">
