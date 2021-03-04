@@ -44,7 +44,19 @@ section{
     margin-bottom: 5px;
 }
 
-.cards{
+/*.cards{
     display: grid;
     grid-template-columns: repeat(auto-fill,minmax(300px, 1fr));;
+}*/
+@media (min-width: 32.5em) {
+    .cards{
+        display: grid;
+        grid-template-columns: repeat(2,minmax(300px, 1fr));;
+    }
+}
+@media (min-width: 64em) {
+    .cards{
+        display: grid;
+        grid-template-columns: repeat(auto-fill,minmax(300px, 1fr));;
+    }
 }
