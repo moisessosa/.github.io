@@ -44,17 +44,23 @@ section{
     margin-bottom: 5px;
 }
 .cards{
-    display: block;
-}
+    
+        display: grid;
+        grid-template-columns: repeat(auto-fill,minmax(300px, 1fr));
+        
+        max-width: 100%;
+        
+   
+}/*
 /*@media screen and (min-width: 700px) {
     .cards{
         display: grid;
        grid-template-columns: repeat(2,minmax(300px, 1fr));
     }
-}*/
+}*//*
 @media screen and (min-width: 46em) {
     .cards{
         display: grid;
         grid-template-columns: repeat(auto-fill,minmax(300px, 1fr));
     }
-}
+}*/
