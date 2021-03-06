@@ -188,7 +188,46 @@ footer{
 picture{
     width: 320px;
  }
+ .towns{
+     text-align: center;
+     margin-left: 0px;
+     margin-right: 0px;
+ }
+ .town{
+     text-align: center;
+     width: 90%;
+     margin-left: 15px;
+     margin-right: 5px;
+     margin-top: 5px;
+     border: #0c0c0c solid 1px;
+     padding: 2%;
+ }
+
  @media (min-width: 32.5em) {
+   
+   /* grid para el index pantalla mediana
+   muestra intercalado las imagenes*/
+    .town{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+        justify-items: center;
+    }
+    .data2 {
+        grid-column: 1;
+    }
+    
+    .derecha{
+        grid-column: 2;
+        
+    }
+    .left{
+        grid-column: 1;
+        grid-row: 1;
+    };
+    data{
+        grid-column: -1;
+    }/*fin de medium para el index*/
     html{
         max-width: 1250px;
     }
@@ -331,6 +370,17 @@ picture{
 
 }
 @media (min-width: 64em) {
+    .town{
+        display: block;
+    }
+    /*grid para pantalla grande*/
+    .towns{
+        display: grid;
+        grid-template-columns: repeat(3, minmax(380px, 1fr));
+    }
+    .towns section img{
+        height: 290px;
+    }
     html{
         max-width: 1250px;
     }
