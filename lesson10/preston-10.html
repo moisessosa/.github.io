@@ -17,6 +17,7 @@
       <script src="js/menu.js"></script>
       <script src="js/windchill.js"></script>
       <script src="js/utilities.js"></script>
+      
     </head>
 
     <body  onresize="sizeLabel()" onload="sizeLabel()">
@@ -61,13 +62,16 @@
                 </picture>
                 <section id="summary" class="transparente">
                     <h3>Weather Summary</h3>
-                    <p>Temperature: <span id="temp">54 ºF</span><br>
-                       Wind Chill: <span id="windchill"></span><br>
+                    <p>Temperature: <span id="temp"> </span>ºF<br>
+                       Wind Chill: <span id="windchill"></span> ºF<br>
 
-                       Wind Speed: <span id="speed"> 12 MPH</span>
+                       Wind Speed: <span id="speed"> </span>  &nbsp; MPH
                        <br>
                     </p>
                 </section>
+                <script>
+                     getTempAndWind();
+                </script>
                 <div class="box-forecast-large"><!--Para pantalla grandes hacer invisible con JS y css-->
                    
                     <h2>Five Days Forecast</h2>
@@ -115,14 +119,21 @@
             <script>
                  document.getElementById('year').innerHTML = retornarUpdate();
                  document.getElementById('update').innerHTML = retornarFecha();
-                 document.getElementById('windchill').innerHTML = windChill(50, 12);
+                 //const temp = document.getElementById('temp');
+                 
+                
+                 //document.getElementById('windchill').innerHTML = windChill(document.getElementById('temp').innerHTML, document.getElementById('speed').innerHTML);
+                 
      
             </script>        
     
           
           </footer>
-          <script src="js/weatherapi.js"></script>
-          <script src="js/lazyload.js"></script>
+         <!-- <script src="js/weatherapi.js"></script>-->
+          <script src="js/lazyload.js">
+          
+        </script>
+
     </body>
     
 </html>
