@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="description" content="">
+        
+        <link href= "css/normalize.css" rel= "stylesheet" >
+        <link href= "css/small.css" rel= "stylesheet" >
+        <link href= "css/medium.css" rel= "stylesheet" >
+        <link href= "css/large.css" rel= "stylesheet" >
+        
+        <link rel="shortcut icon" href="favicon.ico">
+      <title>Moises | Lesson 10 |Preston</title>
+      <script src="js/date.js"></script>  
+      
+      <script src="js/menu.js"></script>
+      <script src="js/windchill.js"></script>
+      <script src="js/utilities.js"></script>
+    </head>
+
+    <body  onresize="sizeLabel()" onload="sizeLabel()">
+        <header>
+            <img src="img/logo.png" alt="Logo termometer and stars" id="logo">
+            <h1>7 Stars Weather</h1>
+            <button class="menu-button" onclick="showMenu()">&#9776;</button>
+        </header>
+        
+        <div id="active">
+           <strong> "Saturday = Jaboticabal Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion."</strong>
+        </div>
+        <script>
+            
+           
+            if(getDia()==5){
+                document.getElementById('active').style.display = "block"; 
+            }
+        </script>
+        <nav class="menu" id="primaryNav">
+            
+            <ul class="navigation" >
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a  href="#">Jaboticabal</a></li>
+                <li><a  href="#">Soda Spring</a></li>
+                <li><a href="#">Fish Haven</a></li>
+                <li><a href="#">Storm Center</a></li>
+                <li><a href="#">Gallery</a></li>
+            </ul>
+
+        </nav>
+        <main>
+            <div class="box">
+                <h2 class="city">Jaboticabal, Brazil</h2>
+                <picture class="secundary-img">
+                    <source media="(max-width: 600px)" srcset="img/wdd230_image_franklinSmall.jpg">
+                    <source media="(max-width: 899px)" srcset="img/wdd230_image_franklinMedium.jpg">
+                    <!--<source media="(max-width: 2000px)" srcset="img/wdd230_image_franklinOriginal.jpg">   -->
+                    <img  src="img/wdd230_image_franklinOriginal.jpeg" alt="Banner Jaboticabal">
+                    
+                </picture>
+                <section id="summary" class="transparente">
+                    <h3>Weather Summary</h3>
+                    <p>Temperature: <span id="temp">54 ºF</span><br>
+                       Wind Chill: <span id="windchill"></span><br>
+
+                       Wind Speed: <span id="speed"> 12 MPH</span>
+                       <br>
+                    </p>
+                </section>
+                <div class="box-forecast-large"><!--Para pantalla grandes hacer invisible con JS y css-->
+                   
+                    <h2>Five Days Forecast</h2>
+                    <div id="five-days">
+                        <div class="forecast" id="day1">30 ºC</div>
+                        <div class="forecast" id="day2">30 ºC</div>
+                        <div class="forecast" id="day3">30 ºC</div>
+                        <div class="forecast" id="day4">30 ºC</div>
+                        <div class="forecast" id="day5">30 ºC</div>
+                    </div>
+                    
+                </div>
+                <div id="label"></div>
+                <article class="box-forecast-small"><!--Para pantalla pequeñas-->
+                    <h2 class="titulo">Five Days Forecast</h2>
+                    <section id="down">
+                        <h3>Article:</h3>
+                        <p class="corto">Lorem ipsum, dolor sit amet consectetur adipisicing elit.<br>
+                             Accusamus nesciunt neque dignissimos voluptatibus iusto magni esse reiciendis, <br>
+                             sunt aut quas perferendis dolores accusantium velit quae. Dolor aliquam nesciunt commodi ipsam.</p>
+                        <img src="img/pexels-florencia-potter-351283.jpg" alt="photo Jaboticabal" class="secundary-img1" id="derecha">
+                    </section>
+                </article>
+                
+            </div><!--Fin de class = box-->
+            <div class="contact">
+                <img src="img/map.png" alt="map" id="map">
+                <section>
+                    <h3>Contact information</h3>
+                   <p>📧 rod20028@byui.edu</p>
+                   <p>📱+55 16 997986545</p>
+                   <div class="social">
+                       <img src="img/facebook.png" alt="FaceBook">
+                       <img src="img/twitter.png" alt="Twitter">
+                       <img src="img/instagram.png" alt="Instragram">
+                   </div>
+                </section>
+            </div>
+
+        </main>
+        <footer>
+            &copy; <span id="year"></span> | Moises  Sosa Rodriguez | Brazil |<a  id="linkbyu"href="https://www.byui.edu/online" target="_blank"><strong><em>BYUI</em></strong></a>
+            |
+            <span id="update"></span>
+            <script>
+                 document.getElementById('year').innerHTML = retornarUpdate();
+                 document.getElementById('update').innerHTML = retornarFecha();
+                 document.getElementById('windchill').innerHTML = windChill(50, 12);
+     
+            </script>        
+    
+          
+          </footer>
+          <script src="js/weatherapi.js"></script>
+          <script src="js/lazyload.js"></script>
+    </body>
+    
+</html>
