@@ -119,18 +119,23 @@
       
     }
     .forecast{
-        background-color:#002776;
+        background-color:#0c45b8;
         color: black;
-        width: 48px;
-        height: 48px;
+        width: 70px;
+        height: 92px;
         padding: 5px;
-        padding-top: 20px;
+        
         text-align: center;
         font-size: 18px;
         border: #0c0c0c solid 1px;
-                     
+        border-radius: 5px;       
         margin: 3%;
 
+    }
+    .dia{
+        background-color: navajowhite;
+        border-radius: 5px;
+        margin: 0%;
     }
     #active{
         font-size: .9rem;
