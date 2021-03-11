@@ -16,7 +16,7 @@ function sizeLabel() {
   }
 
   function getTempAndWind(){
-    const apiURL = "http://api.openweathermap.org/data/2.5/weather?id=5604473&appid=4b8335036073eddbe43ccf6d59157d39&units=imperial";
+    const apiURL = "https://api.openweathermap.org/data/2.5/weather?id=5604473&appid=4b8335036073eddbe43ccf6d59157d39&units=imperial";
     fetch(apiURL)
       .then((response) => response.json())
       .then((jsObject) => {
@@ -33,7 +33,7 @@ function sizeLabel() {
     }
 
     function getForecast(){
-      const apiURL = "http://api.openweathermap.org/data/2.5/forecast?id=5604473&appid=4b8335036073eddbe43ccf6d59157d39&units=imperial";
+      const apiURL = "https://api.openweathermap.org/data/2.5/forecast?id=5604473&appid=4b8335036073eddbe43ccf6d59157d39&units=imperial";
       fetch(apiURL)
         .then((response) => response.json())
         .then((jsObject) => {
