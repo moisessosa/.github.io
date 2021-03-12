@@ -24,8 +24,10 @@ function sizeLabel() {
         const preston = jsObject;
         let temp = preston.main.temp;
         let wind = preston.wind.speed;
+        let hum = preston.main.humidity;
         document.getElementById('temp').textContent = temp;
         document.getElementById('speed').textContent = wind;
+        document.getElementById('hum').textContent = hum;
         document.getElementById('windchill').textContent = windChill(temp, wind);
                  
 
