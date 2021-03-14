@@ -1,0 +1,3 @@
+  const form = jsObject.list.filter((element) =>
+      element.dt_txt.includes("18:00:00")
+    );
