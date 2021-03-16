@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Noto+Sans+JP:wght@300&display=swap');
+h1,h2,h3,h4{
+    font-family: 'Akaya Telivigala', cursive;
+    padding: 20px;
+    text-align: center;
+    color: purple;
+}
+img{ 
+    max-width:75%;
+    
+    margin-left: 0;
+    margin-right: 0;
+    
+}
+
+p{
+    font-family: 'Noto Sans JP', sans-serif;
+    text-align: center;
+    min-height: 100px;
+    padding: 10px;
+
+}
+header{
+    max-width: 100%;
+    height: 80px; 
+    text-align: center;
+    background-color: #ccc ;
+    
+}
+
+body{
+    background: linear-gradient( #8d44f0 50%, #643ad8 75%, #3732c2 100%);;
+    /*background-image: linear-gradient(5deg, #dd55ff 0, #b54dff 25%, #8d44f0 50%, #643ad8 75%, #3732c2 100%);*/
+   text-align: center;
+}
+section{
+    text-align: center;
+    max-width: 40%;
+    min-width: 250px;
+    border: #ccc solid 2px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.cards{
+    
+        display: grid;
+        grid-template-columns: repeat(auto-fill,minmax(300px, 1fr));
+        
+        max-width: 100%;
+        
+   
+}/*
+/*@media screen and (min-width: 700px) {
+    .cards{
+        display: grid;
+       grid-template-columns: repeat(2,minmax(300px, 1fr));
+    }
+}*//*
+@media screen and (min-width: 46em) {
+    .cards{
+        display: grid;
+        grid-template-columns: repeat(auto-fill,minmax(300px, 1fr));
+    }
+}*/

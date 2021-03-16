@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="description" content="">
+        <link href= "../css/normalize.css" rel= "stylesheet" >
+        <link href= "css/main.css" rel= "stylesheet" >
+        
+        <link rel="shortcut icon" href="favicon.ico">
+      <title>Moises | Lesson 7 |Preston</title>
+      <script src="js/date.js"></script>  
+      
+      <script src="js/menu.js"></script>
+      
+      
+    </head>
+
+    <body >
+        <header>
+            <img src="img/logo.png" alt="Logo termometer and stars" id="logo">
+            <h1>7 Stars Weather</h1>
+            <button class="menu-button" onclick="showMenu()">&#9776;</button>
+        </header>
+        
+        <div id="active">
+           <strong> "Saturday = Jaboticabal Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion."</strong>
+        </div>
+        <script>
+            
+           
+            if(getDia()==5){
+                document.getElementById('active').style.display = "block"; 
+            }
+        </script>
+        <nav class="menu" id="primaryNav">
+            
+            <ul class="navigation" >
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a  href="#">Jaboticabal</a></li>
+                <li><a  href="#">Soda Spring</a></li>
+                <li><a href="#">Fish Haven</a></li>
+                <li><a href="#">Storm Center</a></li>
+                <li><a href="#">Gallery</a></li>
+            </ul>
+
+        </nav>
+        <main>
+            <div class="box">
+                <picture>
+                    <img src="img/placeholder.png" data-src="img/weather.jpg"alt="weather">
+                    <p class="text">something</p>
+                </picture>
+                <picture>
+                    <img src="img/placeholder.png" data-src="img/weather1.jpg"alt="weather1">
+                    <p class="text">something</p>
+                </picture>
+                <picture>
+                    <img src="img/placeholder.png" data-src="img/weather2.jpg"alt="weather2">
+                    <p class="text">something</p>
+                </picture>
+                <picture>
+                    <img src="img/placeholder.png" data-src="img/weather3.jpg"alt="weather3">
+                    <p class="text">something</p>
+                </picture>
+                <picture>
+                    <img src="img/placeholder.png" data-src="img/weather4.jpg"alt="weather4">
+                    <p class="text">something</p>
+
+                </picture>
+                <picture>
+                    <img src="img/placeholder.png" data-src="img/weather5.jpg"alt="weather5">
+                    <p class="text">something</p>
+
+                </picture>
+                <picture>
+                    <img src="img/placeholder.png" data-src="img/weather6.jpg"alt="weather6">
+                    <p class="text">something</p>
+
+                </picture>
+                <picture>
+                    <img src="img/placeholder.png" data-src="img/weather7.jpg"alt="weather7">
+                    <p class="text">something</p>
+
+                </picture>
+                <picture>
+                    <img src="img/placeholder.png" data-src="img/weather8.jpg"alt="weather8">
+                    <p class="text">something</p>
+
+                </picture>
+                <picture>
+                    <img src="img/placeholder.png" data-src="img/weather9.jpg"alt="weather9">
+                    <p class="text">something</p>
+
+                </picture>
+            </div><!--Fin de class = box-->
+            <div class="contact">
+                <img src="img/map.png" alt="map" id="map">
+                <section>
+                    <h3>Contact information</h3>
+                   <p>📧 rod20028@byui.edu</p>
+                   <p>📱+55 16 997986545</p>
+                   <div class="social">
+                       <img src="img/facebook.png" alt="FaceBook">
+                       <img src="img/twitter.png" alt="Twitter">
+                       <img src="img/instagram.png" alt="Instragram">
+                   </div>
+                </section>
+            </div>
+
+        </main>
+        <script src="js/lazyload.js"></script>
+        <footer>
+            &copy; <span id="year"></span> | Moises  Sosa Rodriguez | Brazil |<a  id="linkbyu"href="https://www.byui.edu/online" target="_blank"><strong><em>BYUI</em></strong></a>
+            |
+            <span id="update"></span>
+            <script>
+                 document.getElementById('year').innerHTML = retornarUpdate();
+                 document.getElementById('update').innerHTML = retornarFecha();
+                 
+     
+            </script>        
+    
+          
+          </footer>
+    </body>
+    
+</html>

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="description" content="">
+        <link href= "css/normalize.css" rel= "stylesheet" >
+        <link href= "css/main.css" rel= "stylesheet" >
+        
+        <link rel="shortcut icon" href="favicon.ico">
+      <title>Moises | Lesson 8 |storm center</title>
+      <script src="js/date.js"></script>  
+      
+      <script src="js/menu.js"></script>
+      
+      
+    </head>
+
+    <body >
+        <header>
+            <img src="img/logo.png" alt="Logo termometer and stars" id="logo">
+            <h1>7 Stars Weather</h1>
+            <button class="menu-button" onclick="showMenu()">&#9776;</button>
+        </header>
+        
+        <div id="active">
+           <strong> "Saturday = Jaboticabal Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion."</strong>
+        </div>
+        <script>
+            
+           
+            if(getDia()==5){
+                document.getElementById('active').style.display = "block"; 
+            }
+        </script>
+        <nav class="menu" id="primaryNav">
+            
+            <ul class="navigation" >
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a  href="#">Jaboticabal</a></li>
+                <li><a  href="#">Soda Spring</a></li>
+                <li><a href="#">Fish Haven</a></li>
+                <li><a href="#">Storm Center</a></li>
+                <li><a href="#">Gallery</a></li>
+            </ul>
+
+        </nav>
+        <main>
+            <picture class="banner">
+                <img src="img/weather.jpg" alt="storm" id="mybanner">
+            </picture>
+            <div class="box">
+                <h2>Storm Center Report</h2>
+                <form action="thanks.html" method="GET">
+                    <fieldset class="formulario">
+                        <legend>Reporter's Information</legend>
+                        <label for="fname">Full Name<span class="required">*</span></label>
+                        <input type="text" name="fname" id="fname" pattern="[a-zñA-ZÑ ]{5,254}" required><br>
+                        <label for="email">email</label>
+                        <input type="email" name="email" id="email" placeholder="example@mail.com"><br>
+                        <label for="phone">Phone Number<span class="required">*</span>:</label>
+                        <input type="tel" name="phone" id="phone" required><br>
+                        <label for="zip"> Zip Code<span class="required">*</span>">*</span>:</label>
+                        <input type="number" name="zip" id="zip" required><br>
+                    </fieldset>
+                    <fieldset class="formulario">
+                        <legend>Storm's Information</legend>
+                        <label for="data"> Storm Data:</label>
+                        <input type="date" name="data" id="data"><br>
+                        <label for="tipo">Storm Type:</label>
+                        <input type="text" name="tipo" id="tipo" list="lista"><br>
+                            <datalist id="lista">
+                                <option value="Flash Flood">Flash Flood</option>
+                                <option value="Hail">Hail</option>
+                                <option value="Hurricane">Hurricane</option>
+                                <option value="Thunderstorm">Thunderstorm</option>
+                                <option value="Tornado">Tormado</option>
+
+                            </datalist>
+                        <label for="level">Storm Severity </label>
+                        <input name="level" type="range" min="1" max="10" step="1" list=""><br>
+                        <label for="region"> Storm Region </label>
+                        <select name="region" id="region">
+                            <option selected disabled>Select Region</option>
+                            <option value="Preston">Preston</option>
+                            <option value="Soda Springs">Soda Springs</option>
+                            <option value="Fish Haven">Fish Haven</option>
+                        </select>
+                        <br><p>Is't Danger?</p><br>
+                        
+                        <input type="radio" id="danger" name="danger" value="yes">
+                        <label for="danger">YES</label><br>
+                        
+                        <input type="radio" id="maybe" name="maybe" value="no">
+                        <label for="maybe">NO</label><br>
+                        <label for="comentarios"> Commits:</label>
+                        
+                        <textarea name="comentarios" id="comentarios" cols="30" rows="10"></textarea>
+                        <input type="submit" value="Report" id="report">
+                        
+
+                    </fieldset>
+
+                </form>
+            </div><!--Fin de class = box-->
+            <div class="contact">
+                <img src="img/map.png" alt="map" id="map">
+                <section>
+                    <h3>Contact information</h3>
+                   <p>📧 rod20028@byui.edu</p>
+                   <p>📱+55 16 997986545</p>
+                   <div class="social">
+                       <img src="img/facebook.png" alt="FaceBook">
+                       <img src="img/twitter.png" alt="Twitter">
+                       <img src="img/instagram.png" alt="Instragram">
+                   </div>
+                </section>
+            </div>
+
+        </main>
+        <script src="js/lazyload.js"></script>
+        <footer>
+            &copy; <span id="year"></span> | Moises  Sosa Rodriguez | Brazil |<a  id="linkbyu"href="https://www.byui.edu/online" target="_blank"><strong><em>BYUI</em></strong></a>
+            |
+            <span id="update"></span>
+            <script>
+                 document.getElementById('year').innerHTML = retornarUpdate();
+                 document.getElementById('update').innerHTML = retornarFecha();
+                 
+     
+            </script>        
+    
+          
+          </footer>
+    </body>
+    
+</html>

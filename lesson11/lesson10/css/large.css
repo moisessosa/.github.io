@@ -1,0 +1,146 @@
+@media (min-width: 64em) {
+    html{
+        max-width: 1250px;
+    }
+
+    .menu-button{
+        display: none;
+    }
+    header>h1{
+        margin-left: 1rem;
+        text-align: left;
+    
+    }
+    nav{
+      display: inline;  
+    }
+    nav ul{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        text-decoration: none;
+        list-style: none;
+
+    }
+    nav ul li a{
+        
+        font-size: 100%;
+        display: inline;
+    }
+    .box{
+        max-width: 960px;
+        margin-left: auto;
+        margin-right: auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    .city{
+        grid-column: 1/-1;
+        margin-top: 0px;
+    }
+    .box-forecast-large{
+        display: inline;
+        grid-column: 1/-1;
+        /*position: relative;
+        top:-10em;*/
+    }
+    .box-forecast-small{
+        grid-column: 1/-1;
+    }
+    #label{
+        grid-column: -3;
+        grid-row: 2;
+       font-size: 4rem;
+    }
+    #five-days{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        padding-bottom: 1rem;
+    }
+    .secundary-img{
+        width: 960px;
+        grid-column: 1/-1;
+        grid-row: 1;
+        z-index: 0;
+    }
+    .secundary-img1{
+        width: 512px;
+        top: 0px;
+    }
+    #summary{
+        background-color: rgba(240, 240, 240, 0.8);
+        padding: .5em;
+        text-align: left;
+        height: 30%;
+        width: 30%;
+        font-size:1.1em;
+        border: black solid 1px;
+        grid-column: 1/4;
+        grid-row: 1;
+        position: relative;
+        top:8rem;
+        left:2rem;
+    }
+    #derecha{
+        float: right;
+        margin-top: -175px;
+    }
+    .corto{
+        width: 400px;
+    }
+    #down{
+        margin-left: 1rem;
+    }
+    .contact{
+        display: grid;
+        grid-template-columns: .5fr 1fr 2fr;
+        column-gap: 10px;
+    }
+    #map{
+        grid-column: 2;
+    }
+    .navigation li:first-child {
+		display: none;
+    }
+    .hide{
+        display: inline;
+    }
+    h1{
+        font-size: 48px;
+    }
+    #five-days{
+        
+        display: flex;
+        justify-content:center;
+      
+    }
+    .forecast{
+        background-color:#008789;
+        color: black;
+        width: 84px;
+        height: 94px;
+        padding: 10px;
+        
+        text-align: center;
+        font-size: 22px;
+        border: #0c0c0c solid 1px;
+        border-radius: 5px;
+                     
+        margin: 40px;
+        display: grid;
+        grid-template-columns: 1fr;
+
+    }
+    .dia{
+        background-color: navajowhite;
+        border-radius: 5px;
+        margin: 0%;
+    }
+    .icon{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #active{
+        font-size: 1.2rem;
+    }
+}

@@ -1,0 +1,23 @@
+const fechaComoCadena = "2020-03-09 23:37:22"; // día lunes
+const numeroDia = new Date(fechaComoCadena).getDay();
+console.log("Número de día de la semana: ", numeroDia); 
+
+///
+
+function dayName(fecha){
+
+    const days = [
+    'Sunday',
+    'Monday',
+    'Tuesday',
+    'Wensday',
+    'Thursday',
+    'Friday',
+    'Saturday',
+    'domingo',
+    ];
+    const numberDay = new Date(fecha).getDay();
+    const nameDay = days[numberDay];
+
+    return nameDay;
+}
