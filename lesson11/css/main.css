@@ -48,6 +48,12 @@ button{
     background-color: #008789;
     border-style: none;
 }
+#x{
+    width:40px ;
+    padding:.8rem  2%;
+    margin: 0;
+    font-weight: bold;
+}
 body{
     background-color: white;
 }
