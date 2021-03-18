@@ -4,8 +4,8 @@ html{
 }
 img{
     max-width: 100%;
-  /* min-width: 300px;*/
-    min-height: 210px;
+  /* min-width: 300px;
+    min-height: 210px;*/
     max-height: 75%;
 }
 #logo{
@@ -208,6 +208,10 @@ picture{
      border: #0c0c0c solid 1px;
      padding: 2%;
  }
+ .redes{
+     width: 64px !important;
+     height: 64px !important;
+ }
 
  @media (min-width: 32.5em) {
    
@@ -337,6 +341,10 @@ picture{
     }
     #map{
         grid-column: 2;
+       /* max-width: 100%;*/
+       /* min-width: 300px; esto es poe un problema en las reglas heredades*/
+        min-height: 210px;
+       /* max-height: 75%;*/
     }
     .navigation li:first-child {
 		display: none;

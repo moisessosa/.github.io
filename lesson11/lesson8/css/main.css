@@ -4,8 +4,8 @@ html{
 }
 img{
     max-width: 100%;
-  /* min-width: 300px;*/
-    min-height: 210px;
+  /* min-width: 300px;
+    min-height: 210px;*/
     max-height: 100%;
 }
 #logo{

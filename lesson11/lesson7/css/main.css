@@ -8,6 +8,11 @@ img{
     min-height: 210px;
     max-height: 75%;
 }
+#face, #tw, #ins{
+    max-width: 64px;
+    max-height: 64px;
+    min-height: 62px;
+}
 #logo{
     max-width: 128px;
     max-height: 128px;
