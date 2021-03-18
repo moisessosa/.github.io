@@ -35,7 +35,7 @@ header{
     margin-left: 1rem;
     margin-right: 1rem;
     margin-top: 1rem;
-    
+    border-radius: 1.3em;
 }
 header>h1,header>img,header>button{
     flex:1;
@@ -78,6 +78,12 @@ nav{
 nav ul{
     padding: 0%;
     margin: 0%;
+    margin-left: 1em; 
+    margin-right: 1em;
+    margin-top: 5px;
+    border: #0c0c0c solid 1px; 
+    border-radius: 1.3em;
+    margin-bottom: 5px;
 }
 nav ul li{
     list-style: none;

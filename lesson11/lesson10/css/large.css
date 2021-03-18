@@ -19,6 +19,12 @@
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
         text-decoration: none;
         list-style: none;
+        margin-left: 1em; 
+        margin-right: 1em;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        border: #0c0c0c solid 1px; 
+        border-radius: 1.3em;
 
     }
     nav ul li a{

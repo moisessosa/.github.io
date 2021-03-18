@@ -12,6 +12,7 @@ img{
     max-width: 128px;
     max-height: 128px;
     min-height: 64px;
+    border-radius: 1.3em;
 }
 body{
     font-family: "Open Sans", sans-serif;
@@ -30,6 +31,7 @@ header{
     margin-left: 1rem;
     margin-right: 1rem;
     margin-top: 1rem;
+    border-radius: 1.3em;
     
 }
 header>h1,header>img,header>button{
@@ -69,10 +71,16 @@ body{
 nav{
     max-width:1250px;
     
+    
 }
 nav ul{
     padding: 0%;
     margin: 0%;
+    margin-left: 1em; 
+    margin-right: 1em;
+    margin-top: 5px;
+    border: #0c0c0c solid 1px; 
+    border-radius: 1.3em;
 }
 nav ul li{
     list-style: none;
@@ -207,6 +215,7 @@ picture{
      margin-top: 5px;
      border: #0c0c0c solid 1px;
      padding: 2%;
+     border-radius: 1.3em;
  }
  .redes{
      width: 64px !important;
@@ -251,13 +260,19 @@ picture{
     
     }
     nav{
-      display: inline;  
+      display: inline; 
+      
     }
     nav ul{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
         text-decoration: none;
         list-style: none;
+        margin-left: 1em; 
+        margin-right: 1em;
+        margin-top: 5px;
+        border: #0c0c0c solid 1px; 
+        border-radius: 1.3em;
 
     }
     nav ul li a{
@@ -383,7 +398,7 @@ picture{
      }
 
 }
-@media (min-width: 64em) {
+@media (min-width: 60em) {
     .town{
         display: block;
     }
@@ -408,13 +423,21 @@ picture{
     
     }
     nav{
-      display: inline;  
-    }
+      display: inline; 
+     /* margin-top: 5px;/*solo prueba*/
+      /**/
+      
+         }
     nav ul{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
         text-decoration: none;
         list-style: none;
+        margin-left: 1em; 
+        margin-right: 1em;
+        margin-top: 5px;
+        border: #0c0c0c solid 1px; 
+        border-radius: 1.3em;
 
     }
     nav ul li a{
