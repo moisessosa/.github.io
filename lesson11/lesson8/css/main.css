@@ -139,6 +139,8 @@ footer{
     padding-bottom: 1rem;
     color:white;
     font-size: 12px;
+    border-radius: 1.3em;
+    margin-top: 5px;
 }
 #label{
     font-style: oblique;
