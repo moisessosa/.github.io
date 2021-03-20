@@ -16,6 +16,7 @@
       <script src="js/utilities.js"></script>
       <script src="js/menu.js"></script>
       <script src="js/windchill.js"></script>
+      <script src="js/eventstowns.js"></script>
       
       
     </head>
@@ -106,16 +107,16 @@
                 </div>
                 <div id="label"></div>
                 <article class="box-forecast-small"><!--Para pantalla pequeñas-->
-                    <h2 class="titulo">Five Days Forecast</h2>
+                    <h2 class="titulo">Upcoming Events</h2>
                     <section id="down">
-                        <h3>Article:</h3>
-                        <p class="corto">Lorem ipsum, dolor sit amet consectetur adipisicing elit.<br>
+                        <h3>We will celebrate on:</h3>
+                        <p class="corto" id ="events">Lorem ipsum, dolor sit amet consectetur adipisicing elit.<br>
                              Accusamus nesciunt neque dignissimos voluptatibus iusto magni esse reiciendis, <br>
                              sunt aut quas perferendis dolores accusantium velit quae. Dolor aliquam nesciunt commodi ipsam.</p>
                         <img src="img/pexels-stael-guimarães-3369586.jpg" alt="photo fish haven" class="secundary-img1" id="derecha">
                     </section>
                 </article>
-                
+                <script>getEvents("Fish Haven");</script>
             </div><!--Fin de class = box-->
             <div class="contact">
                 <img src="img/map.png" alt="map" id="map">
