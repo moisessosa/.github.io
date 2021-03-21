@@ -56,8 +56,10 @@
     .box-forecast-large{
         display: inline;
         grid-column: 1/-1;
-        /*position: relative;
-        top:-10em;*/
+        
+        background-color: black;
+        color: white;
+        padding: 10px;
     }
     .box-forecast-small{
         grid-column: 1/-1;
