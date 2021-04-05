@@ -18,6 +18,7 @@ function getEvents(town){
                 }
                 
                 document.getElementById('events').innerHTML = events;
+                    
                
         }
         }

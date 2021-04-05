@@ -1,0 +1,46 @@
+{
+    "business":[
+        {
+            "name":"Paraiso dos Salgados",
+            "contactInformation":"paraisodossalgados@gmail.com",
+            "logo":"paraiso",
+            "web":"no have"
+        },
+        {
+            "name":"Vision Formatura",
+            "contactInformation":"atc@vision.com",
+            "logo":"vision",
+            "web":"no have"
+        },
+        {
+            "name":"Casas Bahia",
+            "contactInformation":"contact@casasbahia.com.br",
+            "logo":"bahia",
+            "web":"https://www.casasbahia.com.br/"
+        },
+        {
+            "name":"Magazine De Luiza",
+            "contactInformation":"clientes@magazineluiza.com.br",
+            "logo":"luiza",
+            "web":"https://www.magazineluiza.com.br/"
+        },
+        {
+            "name":"Americanas ",
+            "contactInformation":"contact@americanas.com.br",
+            "logo":"bahia",
+            "web":"https://www.americanas.com.br/"
+        },
+        {
+            "name":"ED+",
+            "contactInformation":"info@lojasedmais.com.br",
+            "logo":"ed",
+            "web":"http://www.lojasedmais.com.br/"
+        },
+        {
+            "name":"Sorveteria Morelli",
+            "contactInformation":"morelli@gmail.com",
+            "logo":"morelli",
+            "web":"https://www.facebook.com./sorbeteria_morelli"
+        }
+    ]
+}
