@@ -81,13 +81,44 @@ h1{
 }
 
 #change{
-    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     text-align: center;
 }
-#publicidad{
-    max-height: 400px;
-    min-height: 200px;
-    margin: 2% auto 2% auto;
+.publicidad{
+    /*added animation using only html and css*/
+    margin: auto;
+    grid-column: 1/-1;
+    grid-row: 1;
+    width: 95%;
+    overflow: hidden;
+}
+.publicidad ul{
+    display: flex;
+    padding: 0;
+    width: 300%;
+    animation: cambio 15s infinite alternate;
+}
+.publicidad li{
+    width: 100%;
+    list-style: none;
+}
+.publicidad img{
+   /* width: 100%;*/
+}
+@keyframes cambio{
+    0% {margin-left: 0;}
+    30% { margin-left: 0;}
+
+    33% {margin-left: -100%;}
+    63% {margin-left: -100%;}
+
+    66%{margin-left: -200%;}
+    100%{margin-left: -200%;}
+}
+.banner{
+    width: 600px;
+    margin-top: -5px;
 }
 #weather, #d1, #d2, #d3{
     border: black solid 1px;
@@ -156,6 +187,24 @@ h1{
     margin: 5px 1% 2px 1%;
     max-width: 98%;
 }
+
+.action{
+    background-color: rgba(240, 240, 240, 0.8);
+  
+    height: 110px;
+    width: 18%;
+    border: #ccc solid 1px;
+    grid-column: 1;
+    grid-row: 1;
+    margin: 5% 1% 1% 9%;
+}
+.action a{
+    background-color: #2A05F0;
+    border: #ccc solid;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+}
 @media (max-width: 550px){
     #description{
         display: block;
@@ -195,4 +244,9 @@ h1{
     header{
         display: grid;
         grid-template-columns: 20% 20% }
+       
+    .action{
+        height: 120px;
+        width: 80px;
+    }
 }
