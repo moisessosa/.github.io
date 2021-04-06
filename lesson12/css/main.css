@@ -73,6 +73,8 @@ h1{
 }
 #logo{
     margin-top: 3%;
+    border-radius: 15%;
+    border: white solid 2px;    
 }
 #foot{
     text-align: center;
@@ -150,7 +152,10 @@ h1{
 .menu-button{
     display: none;
 }
-
+.flag{
+    margin: 5px 1% 2px 1%;
+    max-width: 98%;
+}
 @media (max-width: 550px){
     #description{
         display: block;
