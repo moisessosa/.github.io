@@ -17,45 +17,89 @@
             <nav class="menu" id="primaryNav">
             
                 <ul class="navigation" >
-                    <li><a href="#"><button id="x"class="menu-button" onclick="showMenu()">X</button></a></li>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a  href="">Jaboticabal</a></li>
-                    <li><a  href="">Directory</a></li>
-                    <li><a href="">Join</a></li>
-                    <li><a href="">News</a></li>
-                    <li><a href="">Contact</a></li>
-                    <li><button class="menu-button" onclick="showMenu()" id="ham">&#9776;</button></li>
+                    <li class="lista"><button class="menu-button" onclick="showMenu()" id="ham">&#9776;</button></li>
+                    <li class="lista"><a href="index.html" >Home</a></li>
+                    <li class="lista"><a  href="" >Jaboticabal</a></li>
+                    <li class="lista"><a  href="" class="lista">Directory</a></li>
+                    <li class="lista"><a href=""class="lista">Join</a></li>
+                    <li class="lista"><a href=""class="lista">News</a></li>
+                    <li class="lista"><a href=""class="lista">Contact</a></li>
+                    
                 </ul>
             
         </nav>
             
         </header>
         
-        <picture id="publicidad">
-            <img src="img/bandeira.jpg" alt="publicidad">
-        </picture>
+        <div id="change">
+            <img src="img/bandeira.jpg" alt="publicidad" id="publicidad">
+        </div>
         <main>
             <article id="weather">
                 <h2>Jaboticabal Weather Information</h2>
                 <p><span id="temp"></span>ºF / Humedity <span id="humedity"></span>% <span id="current"></span></p>
                 <h2>Forecast 3 days</h2>
-                <div id="d1"></div>
-                <div id="d2"></div>
-                <div id="d3"></div>
-                
+                <div id="cast">
+                    <div id="d1" class="fore">45</div>
+                    <div id="d2"class="fore">dd</div>
+                    <div id="d3"class="fore">dd</div>
+                </div>
             </article>
-            <article id="">
+            <article id="description">
                 <section id="purpose">
+                    <div>
+                        <h2>Purpose:</h2>
+                        <p>the Chamber of Commerce of Jaboticabal - was founded in 1932 to contribute to the development of 
+                            the municipality. It represents more than 200 companies of all sizes and segments.
 
+                            Among its responsibilities, it develops the defense of the interests of the business community, 
+                            the provision of services to members, its training and the promotion and support for the 
+                            development of business environments favorable to all sectors of the economy of Jaboticabal.
+                        </p>
+                    </div>
+                    <img src="img/camera.png" alt="Photo of Chamber" id="camera">
+                    <img src="img/goals.jpeg" alt="photo group Empower">
+                    <div>
+                        <h2>Goals:</h2>
+                        <ul>
+                            <li>Defending business interests</li>
+                            <li>Education,Empower, Encourage and support the development of business environments</li>
+                            <li>Guide, as an advisory body to the Municipal Government, in defining the municipality's holiday calendar and in matters of interest to the business community.</li>
+                            <li>Work with government agencies, form partnerships and formulate actions to strengthen the class and the business of its members.</li>
+                        </ul>
+                    </div>
                 </section>
                 <section id="events">
-                    
+                    <h2>Next Events:</h2>
+                    <ul>
+                        <li>May 13 Business Micro-Finance Training</li><br>
+                        <li>July 16, day of the Foundation of the City<br> Industrial Agricultural Fair<br></li>
+                        <li>August 10: Jaboticabal Agroindustrial Advantages Exhibition</li>
+                    </ul>
                 </section>
 
             </article>
         </main>
         <footer>
-            <h3>Contact Information</h3>
+            <div id="contact1">
+                <div id='contact'>
+                    <h3>Contact Information</h3>
+                    <p>
+                        Phone: +55 16 9979-0999<br>
+                        whatsapp: +55 16 9979-9999<br>
+                        email: contact@jcc.com<br>
+                    </p>
+                </div>
+                <div id="social">
+                    <a href="https://www.twitter.com"><img src="img/twitter.png" alt="Twitter"></a>
+                    <a href="https://www.instragam.com"><img src="img/instagram.png" alt="Instragram"></a>
+                    <a href="https://www.youtube.com"><img src="img/youtube.png" alt="Youtube"></a>
+                    
+                </div>  
+            </div>
+            <div id="foot">
+                &copy;2021 | Moises Sosa Rodriguez | Brazil | BYUI
+            </div>
         </footer>
     </body>
 </html>

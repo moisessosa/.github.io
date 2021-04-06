@@ -1,37 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@300&family=Oswald&family=Pacifico&display=swap'); 
+
 html{
-    max-width: 1300px;
+    max-width: 1275px;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 body{
-   max-width: 1250px;
-   margin-left: auto;
-   margin-right: auto;
+    max-width: 1250px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Lexend', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Oswald', sans-serif;
 }
 img{
     max-width: 100%;
+    min-width: 64px;
+}
+a{
+    text-decoration: none;
 }
 header{
     display: grid;
-    grid-template-columns: 1fr 1fr 2fr;
-    max-width: 90%;
+    grid-template-columns: 20% 20% 2fr;
+    max-width: 99%;
     gap: 3px;
+    background-color: #2A05F0;
     
 }
 nav ul{
     display: grid;
-    grid-template-columns: repeat(8, 1fr);
+    grid-template-columns: repeat(9, 1fr);
     list-style: none;
-    gap: 0%;
+    gap: 2%;
     text-decoration: none;
     font-size: 1.2em;
+    background-color: #F00A1A;
+    width: 200px;
+    
     
 }
-#logo{
+nav ul li a{
+    color: white;
+    padding: 15% 8%;
+    margin: 1%;
+    
+    
+}
+nav ul li a:hover{
+    background-color:#2A05F0 ;
+    color: white;
+ 
+}
+footer{
     margin-top: 3%;
+}
+.navigation{
+    width: 600px;
+    height: 70px;
+    
+}
+.lista{
+    margin-top: auto;
+    margin-bottom: auto;
+    
 }
 h1{
     margin-top: 3%;
     
 }
-/*nav ul li{
-    margin: 3% 5% 0px 5%;
+#logo{
+    margin-top: 3%;
+}
+#foot{
+    text-align: center;
+}
+
+#change{
+    
+    text-align: center;
+}
+#publicidad{
+    max-height: 400px;
+    min-height: 200px;
+    margin: 2% auto 2% auto;
+}
+#weather, #d1, #d2, #d3{
+    border: black solid 1px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+#cast{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+}
+.fore{
+    min-width: 64px;
+    max-width: 128px;
+    max-height: 128px;
+    min-height: 64px;
+    margin-bottom: 3%;
+}
+#description{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3%;
+    margin-top: 1%;
+}
+#purpose, #events{
+    border: black solid 1px;
+}
+#purpose{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2%;
+    
+    
+}
+#purpose div, #events h2{
+    margin-left: 3%;
+}
+#camera{
+    margin-top: 30%;
+}
+#contact1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #2A05F0;
+    color: white;
+    
+}
+#contact,#social{margin-left: 2%;}
+#social{
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: center;
+    
+}
+#foot{
+    margin-top: 1%;
+    margin-bottom: 1%;
+    background-color: #F00A1A;
+    color: white;
+    border: #ccc solid 1px;
+}
+.menu-button{
+    display: none;
+}
+
+@media (max-width: 550px){
+    #description{
+        display: block;
+    }
+    #purpose{
+        display: block;
+    }
+    nav ul {
+        display:block;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+        top: 19px;
+    }
+    nav ul li a{
+        padding: 5px;
+    }
+    nav ul li a:hover{
+        background-color: #2A05F0 ;
+        color: white;
+     
+     
+    }
+    .menu-button{
+        display: block;
+        margin-left: 22px;
+        
+    }
+    
+    .navigation{
+        width: 445%;
+        height: 340px;
+        line-height: 2.5em;
+        
+    }
+  
+    header{
+        display: grid;
+        grid-template-columns: 20% 20% }
 }
