@@ -47,7 +47,32 @@
                     </div>
                     <fieldset>
                         <legend>Your Data: </legend>
+                        <label for="firstname">First Name:<span class="required">*</span></label><br><br>
+                        <input type="text" name="firstname" id="firstname" pattern="[a-zñA-ZÑ ]{5,254}" required><br><br>
                         
+                        <label for="lastname">Last Name:<span class="required">*</span></label><br><br>
+                        <input type="text" name="lastname" id="lastname" pattern="[a-zñA-ZÑ ]{5,254}" required><br><br>
+                        
+                        <label for="title">Title:<span class="required">*</span></label><br><br>
+                        <input type="text" name="title" id="title" pattern="[a-zñA-ZÑ ]{5,254}"><br><br>
+
+                        <label for="email">email:</label><br><br>
+                        <input type="email" name="email" id="email" placeholder="example@mail.com" required><br><br>
+
+                        <label for="phone">Phone Number:</span>:</label><br><br>
+                        <input type="tel" name="phone" id="phone"><br><br>
+
+                        <label for="businessname">First Name:<span class="required">*</span></label><br><br>
+                        <input type="text" name="businessname" id="businessname" pattern="[a-zñA-ZÑ ]{5,254}" required><br><br>
+
+                        <label for="address">Address:</label><br><br>
+                        <input type="text" name="address" id="address"><br><br>
+
+                        <label for="web">Web Site:</label><br><br>
+                        <input type="url" name="web" id="web"><br><br>
+
+                        <label for="descrip"> Brief description of the business:</label><br><br>
+                        <textarea name="descrip" id="descrip" cols="30" rows="6"></textarea><br><br>
                         
                     </fieldset>
                     <fieldset id="membership">
