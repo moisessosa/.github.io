@@ -254,6 +254,9 @@ fieldset{
     margin: 5px 5px 5px 8%;
     height: 0;
 }
+.gran{
+    font-size: 48px;
+}
 @media (max-width: 800px){
     header{
         grid-template-columns: 1fr 1fr;
