@@ -11,6 +11,7 @@ function getWeather(){
         document.getElementById('temp').innerHTML = weather.current.temp;
         document.getElementById('humedity').innerHTML = weather.current.humidity;
         document.getElementById('current').innerHTML =weather.current.weather[0].description;
+        console.log(weather);//
 
         const iconsrc1 = 'https://openweathermap.org/img/w/' + weather.daily[0].weather[0].icon + '.png'; 
         
