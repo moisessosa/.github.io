@@ -30,6 +30,7 @@ function getDirectory(){
         a.appendChild(pweb)
         if(business[i].web!="no have"){
             a.setAttribute('href', business[i].web)
+            a.setAttribute('target','_blank')
         }
         //card.appendChild(pweb);
 
