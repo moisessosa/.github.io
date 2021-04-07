@@ -106,9 +106,7 @@ h1{
     width: 100%;
     list-style: none;
 }
-.publicidad img{
-   /* width: 100%;*/
-}
+
 @keyframes cambio{
     0% {margin-left: 0;}
     30% { margin-left: 0;}
@@ -213,8 +211,49 @@ h1{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
+form{
+    text-align: center;
+}
+form input{
+    width: 312px;
+    height: 35px;
+}
+.center{
+    text-align: center;
+    margin: 4%
+}
+.big{
+    font-size: 64px;
+    color: #F00A1A;
+    background-color: rgba(240, 240, 240, 0.8);
+    position: relative;
+    top:-400px;
+}
+@media (max-width: 800px){
+    header{
+        grid-template-columns: 1fr 1fr;
+        
+    }
+    header img{
+        grid-column: 1;
+    }
+    header h1{
+        grid-column:2;
+        grid-row: 1;
+        position: relative;
+        left: -500px;
+    }
+    .big{
+        top: -190px;
+    }
+
+}
 
 @media (max-width: 550px){
+    
+    .big{
+        top: -250px;
+    }
     .hide{
         display: none;
         max-height: 25px;
@@ -230,7 +269,7 @@ h1{
         display:block;
         margin:auto;
         position: relative;
-        top: 19px;
+        top: 5px;
     }
     nav ul li a{
         padding: 5px;
@@ -248,14 +287,19 @@ h1{
     }
     
     .navigation{
-        width: 445%;
-        height: 340px;
+        width: 91%;
+        height: 290px;
         line-height: 2.5em;
         
     }
   
     header{
         display:block;}
+
+        header h1{
+            left: 0px;
+        }
+
        
     .action{
         height: 120px;
