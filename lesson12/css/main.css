@@ -30,6 +30,9 @@ header{
     background-color: #2A05F0;
     
 }
+#ham{
+    height: 25px;
+}
 nav ul{
     display: grid;
     grid-template-columns: repeat(9, 1fr);
@@ -182,6 +185,7 @@ h1{
 }
 .menu-button{
     display: none;
+    max-height: 25px;
 }
 .flag{
     margin: 5px 1% 2px 1%;
@@ -205,7 +209,17 @@ h1{
     text-decoration: none;
     color: white;
 }
+.cards{ 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
 @media (max-width: 550px){
+    .hide{
+        display: none;
+        max-height: 25px;
+        
+    }
     #description{
         display: block;
     }
@@ -214,8 +228,7 @@ h1{
     }
     nav ul {
         display:block;
-        margin-left: auto;
-        margin-right: auto;
+        margin:auto;
         position: relative;
         top: 19px;
     }
@@ -230,7 +243,7 @@ h1{
     }
     .menu-button{
         display: block;
-        margin-left: 22px;
+        max-height: 25px;
         
     }
     
@@ -242,8 +255,7 @@ h1{
     }
   
     header{
-        display: grid;
-        grid-template-columns: 20% 20% }
+        display:block;}
        
     .action{
         height: 120px;
