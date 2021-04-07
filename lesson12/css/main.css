@@ -243,6 +243,16 @@ fieldset{
 #benefit{
     text-align: left;
 }
+#membership{
+    text-align: left;
+    margin: 0;
+    padding: 0
+}
+.normal{
+    width: 10px;
+    margin: 5px 5px 5px 8%;
+    height: 0;
+}
 @media (max-width: 800px){
     header{
         grid-template-columns: 1fr 1fr;
