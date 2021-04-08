@@ -58,7 +58,7 @@ nav ul li a:hover{
  
 }
 footer{
-    margin-top: 3%;
+    margin-top: 5%;
 }
 .navigation{
     width: 600px;
@@ -79,9 +79,6 @@ h1{
     margin-left: 3px;
     border-radius: 15%;
     border: white solid 2px;    
-}
-#foot{
-    text-align: center;
 }
 
 #change{
@@ -176,7 +173,8 @@ h1{
     
 }
 #foot{
-    margin-top: 1%;
+    text-align: center;
+    margin-top: 2%;
     margin-bottom: 1%;
     background-color: #F00A1A;
     color: white;
@@ -257,6 +255,29 @@ fieldset{
 .gran{
     font-size: 48px;
 }
+.maior{
+    font-size: 32px;
+}
+.menor{
+    font-size: 28px;
+}
+
+
+#grid-city{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(340px, 600px));
+    gap: 3%;
+    justify-items: center;
+}
+.ecom{
+    margin-left: 10px;
+}
+@media (max-width: 1228px){
+    footer{
+        margin-top: 30%;
+    }
+
+}
 @media (max-width: 800px){
     header{
         grid-template-columns: 1fr 1fr;
@@ -274,11 +295,16 @@ fieldset{
     .big{
         top: -190px;
     }
+    footer{
+        margin-top: 200px;
+    }
 
 }
 
 @media (max-width: 550px){
-    
+    footer{
+        margin-top: 50%;
+    }
     .big{
         top: -250px;
     }
