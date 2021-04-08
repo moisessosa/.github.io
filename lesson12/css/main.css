@@ -272,6 +272,10 @@ fieldset{
 .ecom{
     margin-left: 10px;
 }
+.mapa{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(340px, 600px));
+}
 @media (max-width: 1228px){
     footer{
         margin-top: 30%;
@@ -303,7 +307,7 @@ fieldset{
 
 @media (max-width: 550px){
     footer{
-        margin-top: 55%;
+        margin-top: 200px;
     }
     .big{
         top: -250px;
