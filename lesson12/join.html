@@ -48,13 +48,13 @@
                     <fieldset>
                         <legend>Your Data: </legend>
                         <label for="firstname">First Name:<span class="required">*</span></label><br><br>
-                        <input type="text" name="firstname" id="firstname" pattern="[a-zñA-ZÑ ]{1,254}" required><br><br>
+                        <input type="text" name="firstname" id="firstname" pattern="[a-zñA-ZÑ0-9 ]{1,254}" required><br><br>
                         
                         <label for="lastname">Last Name:<span class="required">*</span></label><br><br>
-                        <input type="text" name="lastname" id="lastname" pattern="[a-zñA-ZÑ ]{1,254}" required><br><br>
+                        <input type="text" name="lastname" id="lastname" pattern="[a-zñA-ZÑ0-9 ]{1,254}" required><br><br>
                         
                         <label for="title">Title:<span class="required">*</span></label><br><br>
-                        <input type="text" name="title" id="title" pattern="[a-zñA-ZÑ ]{1,254}"><br><br>
+                        <input type="text" name="title" id="title" pattern="[a-zñA-ZÑ0-9 ]{1,254}"><br><br>
 
                         <label for="email">email:</label><br><br>
                         <input type="email" name="email" id="email" placeholder="example@mail.com" required><br><br>
@@ -63,7 +63,7 @@
                         <input type="tel" name="phone" id="phone"><br><br>
 
                         <label for="businessname">Business Name:<span class="required">*</span></label><br><br>
-                        <input type="text" name="businessname" id="businessname" pattern="[a-zñA-ZÑ ]{1,254}" required><br><br>
+                        <input type="text" name="businessname" id="businessname" pattern="[a-zñA-ZÑ0-9 ]{1,254}" required><br><br>
 
                         <label for="address">Address:</label><br><br>
                         <input type="text" name="address" id="address"><br><br>
@@ -80,36 +80,34 @@
                         <input type="radio" id="no-profit" name="type" value="no-profit" class="normal">
                         <label for="no-profit"> $ 100 - No Profit Organization</label>
                         <br>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit culpa, ipsam laborum earum 
-                                eaque nemo incidunt pariatur perspiciatis facilis quasi sed? Minima eligendi pariatur nemo 
-                                asperiores magni esse ipsum cumque.
+                            <p>Due to their non-commercial and community-helping nature, these organizations have all the benefits of Gold membership.
+                               <br>
+                               Except for the number of points per vote, so each vote will be worth one point. 
                             </p>
                         <br>
 
                         <input type="radio" id="bronze" name="type" value="bronze" class="normal">
                         <label for="bronze">$200 - Bronze</label>
                         <br>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit culpa, ipsam laborum earum 
-                                eaque nemo incidunt pariatur perspiciatis facilis quasi sed? Minima eligendi pariatur nemo 
-                                asperiores magni esse ipsum cumque.
+                            <p>10% discount on the cost of events and trainings.<br>
+                            One vote will equal one point in the chamber's decision making.
                             </p>
                         <br>
 
                         <input type="radio" id="silver" name="type" value="silver" class="normal">
                         <label for="silver">$400 - Silver</label>
                         <br>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit culpa, ipsam laborum earum 
-                                eaque nemo incidunt pariatur perspiciatis facilis quasi sed? Minima eligendi pariatur nemo 
-                                asperiores magni esse ipsum cumque.
+                            <p>20% discount on the cost of events and trainings.<br>
+                                One vote will equal two point in the chamber's decision making.
                             </p>
                         <br>
 
                         <input type="radio" id="gold" name="type" value="gold" class="normal">
                         <label for="gold">$1000 - Gold</label>
                         <br>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit culpa, ipsam laborum earum 
-                                eaque nemo incidunt pariatur perspiciatis facilis quasi sed? Minima eligendi pariatur nemo 
-                                asperiores magni esse ipsum cumque.
+                            <p>50% discount on the cost of events and trainings.<br>
+                                One vote will equal ten point in the chamber's decision making.
+
                             </p>
                         <br>
 
