@@ -28,23 +28,11 @@ function getWeather(){
         document.getElementById('day3').innerHTML = weather.daily[2].temp.day;
         const dia = new Date().getDay();//dia actual en numero
         
-        if (dia < 4){
+      
             document.getElementById('01').innerHTML= dayName(dia + 1);
             document.getElementById('02').innerHTML= dayName(dia + 2);
             document.getElementById('03').innerHTML= dayName(dia + 3);
-        }else if(dia==4){
-            document.getElementById('01').innerHTML= dayName(dia + 1);
-            document.getElementById('02').innerHTML= dayName(dia + 2);
-            document.getElementById('03').innerHTML= dayName(0);
-        }else if(dia==5){
-            document.getElementById('01').innerHTML= dayName(dia + 1);
-            document.getElementById('02').innerHTML= dayName(0);
-            document.getElementById('03').innerHTML= dayName(1);
-        }else if(dia==6){
-            document.getElementById('01').innerHTML= dayName(0);
-            document.getElementById('02').innerHTML= dayName(1);
-            document.getElementById('03').innerHTML= dayName(2); 
-        }
+       
     });
 };
 
@@ -57,7 +45,12 @@ function dayName(dia){
     'Wen.',//3
     'Thu.',//4
     'Fri.',
-    'Sat.',
+    'Sat.',//añadi mas dias para cuando la fecha sea
+    'Sun.',//superior a jueves
+    'Mon.',
+    'Tue.',
+    'Wen.',//3
+    
     
     ];
   
